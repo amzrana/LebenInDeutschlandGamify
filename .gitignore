@@ -1,0 +1,6 @@
+*.egg-info/
+.*_cache
+
+.DS_Store
+build/
+*.pyc
