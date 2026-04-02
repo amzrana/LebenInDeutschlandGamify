@@ -1135,10 +1135,10 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "People.",
+    "question_en": "What does \"popular sovereignty\" mean? All state power emanates from the …",
     "options_en": [
-      "People.",
-      "Federal Diet (German parliament).",
+      "people.",
+      "Bundestag.",
       "Prussian King.",
       "Federal Constitutional Court."
     ]
@@ -1157,9 +1157,9 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "The state has the law.",
+    "question_en": "What does \"Rechtsstaat\" (rule of law) mean in Germany?",
     "options_en": [
-      "The state has the law.",
+      "The state is right.",
       "There are only right-wing parties.",
       "Citizens decide on laws.",
       "The state must abide by the laws."
@@ -1641,7 +1641,7 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "Frank-Walter Steinmeier.",
+    "question_en": "What is the name of Germany's current head of state?",
     "options_en": [
       "Frank-Walter Steinmeier.",
       "Bärbel Bas.",
@@ -2807,7 +2807,7 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "Members of parliament who are elected by citizens are called",
+    "question_en": "Members of parliament who are elected by citizens are called …",
     "options_en": [
       "Members of Parliament.",
       "Chancellors.",
@@ -2983,7 +2983,7 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "In Germany, you go to the labor court in case of - unjustified termination by your employer",
+    "question_en": "In Germany, you go to the labor court in case of …",
     "options_en": [
       "incorrect utility cost statement.",
       "unjustified termination by your boss.",
@@ -3049,7 +3049,7 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "When does a trial take place in Germany? When someone has committed a crime and is charged.",
+    "question_en": "When does a trial take place in Germany? When someone …",
     "options_en": [
       "converts to another religion.",
       "committed a crime and is being charged.",
@@ -3071,7 +3071,7 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "What does a lay judge do in Germany? He/She decides with judges on guilt and punishment.",
+    "question_en": "What does a lay judge do in Germany? He/She …",
     "options_en": [
       "decides with judges on guilt and punishment.",
       "provides legal advice to citizens.",
@@ -3115,7 +3115,7 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "What is the main task of a judge in Germany? A judge works at a court and pronounces judgments.",
+    "question_en": "What is the main task of a judge in Germany? A judge …",
     "options_en": [
       "represents citizens in court.",
       "works at a court and pronounces judgments.",
@@ -4655,7 +4655,7 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "Federal State of Germany",
+    "question_en": "What is Germany's full official name?",
     "options_en": [
       "Federal State of Germany",
       "Federal States of Germany",
@@ -5865,7 +5865,7 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "They must respect the decision of the adult daughter.",
+    "question_en": "A young woman in Germany, 22 years old, lives with her boyfriend. The woman's parents don't approve because they don't like the boyfriend. What can the parents do?",
     "options_en": [
       "They must respect the decision of the adult daughter.",
       "They have the right to bring the daughter back to the parental home.",
@@ -6437,7 +6437,7 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "What is a tradition in Germany at Easter? – Painting eggs",
+    "question_en": "What is a tradition in Germany at Easter?",
     "options_en": [
       "put pumpkins in front of the door",
       "decorate a fir tree",
