@@ -6637,8 +6637,8 @@
     "image": null,
     "question_en": "Which is a county (Landkreis) in Baden-Württemberg?",
     "options_en": [
-      "Mecklenburgische Seenplatte",
-      "Neckar-Odenwald-Kreis",
+      "Mecklenburg Lake District",
+      "Neckar-Odenwald County",
       "Nordfriesland",
       "Altötting"
     ]
@@ -6858,7 +6858,7 @@
     "question_en": "Which is a county (Landkreis) in Bavaria?",
     "options_en": [
       "Prignitz",
-      "Rhein-Sieg-Kreis",
+      "Rhine-Sieg County",
       "Nordfriesland",
       "Altötting"
     ]
@@ -6969,8 +6969,8 @@
     "options_en": [
       "Ingolstadt.",
       "Regensburg.",
-      "Nürnberg.",
-      "München."
+      "Nuremberg.",
+      "Munich."
     ]
   },
   {
@@ -7080,7 +7080,7 @@
       "Altona",
       "Prignitz",
       "Pankow",
-      "Mecklenburgische Seenplatte"
+      "Mecklenburg Lake District"
     ]
   },
   {
@@ -7298,8 +7298,8 @@
     "question_en": "Which is a county (Landkreis) in Brandenburg?",
     "options_en": [
       "Prignitz",
-      "Rhein-Sieg-Kreis",
-      "Vogtlandkreis",
+      "Rhine-Sieg County",
+      "Vogtland County",
       "Amberg-Sulzbach"
     ]
   },
@@ -7740,7 +7740,7 @@
       "Altona",
       "Hemelingen",
       "Pankow",
-      "Mecklenburgische Seenplatte"
+      "Mecklenburg Lake District"
     ]
   },
   {
@@ -7960,7 +7960,7 @@
       "Ammerland",
       "Altötting",
       "Prignitz",
-      "Main-Taunus-Kreis"
+      "Main-Taunus County"
     ]
   },
   {
@@ -8178,9 +8178,9 @@
     "question_en": "Which is a county (Landkreis) in Mecklenburg-Western Pomerania?",
     "options_en": [
       "Prignitz",
-      "Mecklenburgische Seenplatte",
-      "Vogtlandkreis",
-      "Rhein-Sieg-Kreis"
+      "Mecklenburg Lake District",
+      "Vogtland County",
+      "Rhine-Sieg County"
     ]
   },
   {
@@ -8398,9 +8398,9 @@
     "question_en": "Which is a county (Landkreis) in Lower Saxony?",
     "options_en": [
       "Ammerland",
-      "Rhein-Sieg-Kreis",
+      "Rhine-Sieg County",
       "Nordfriesland",
-      "Vogtlandkreis"
+      "Vogtland County"
     ]
   },
   {
@@ -8507,8 +8507,8 @@
     "image": null,
     "question_en": "The state capital of Lower Saxony is called …",
     "options_en": [
-      "Hannover.",
-      "Braunschweig.",
+      "Hanover.",
+      "Brunswick.",
       "Wolfsburg.",
       "Osnabrück."
     ]
@@ -8618,9 +8618,9 @@
     "question_en": "Which is a county (Landkreis) in North Rhine-Westphalia?",
     "options_en": [
       "Ammerland",
-      "Rhein-Sieg-Kreis",
+      "Rhine-Sieg County",
       "Nordfriesland",
-      "Vogtlandkreis"
+      "Vogtland County"
     ]
   },
   {
@@ -8727,7 +8727,7 @@
     "image": null,
     "question_en": "The state capital of North Rhine-Westphalia is called …",
     "options_en": [
-      "Köln.",
+      "Cologne.",
       "Bonn.",
       "Düsseldorf.",
       "Dortmund."
@@ -8837,7 +8837,7 @@
     "image": null,
     "question_en": "Which is a county (Landkreis) in Rhineland-Palatinate?",
     "options_en": [
-      "Westerwaldkreis",
+      "Westerwald County",
       "Altötting",
       "Emsland",
       "Prignitz"
@@ -9057,10 +9057,10 @@
     "image": null,
     "question_en": "Which is a county (Landkreis) in Saarland?",
     "options_en": [
-      "Mecklenburgische Seenplatte",
+      "Mecklenburg Lake District",
       "Altötting",
       "Neunkirchen",
-      "Rhein-Sieg-Kreis"
+      "Rhine-Sieg County"
     ]
   },
   {
@@ -9277,7 +9277,7 @@
     "image": null,
     "question_en": "Which is a county (Landkreis) in Saxony?",
     "options_en": [
-      "Vogtlandkreis",
+      "Vogtland County",
       "Altötting",
       "Uckermark",
       "Nordfriesland"
@@ -9718,9 +9718,9 @@
     "question_en": "Which is a county (Landkreis) in Schleswig-Holstein?",
     "options_en": [
       "Ammerland",
-      "Mecklenburgische Seenplatte",
+      "Mecklenburg Lake District",
       "Nordfriesland",
-      "Rhein-Sieg-Kreis"
+      "Rhine-Sieg County"
     ]
   },
   {
@@ -9940,7 +9940,7 @@
       "Ammerland",
       "Altötting",
       "Nordfriesland",
-      "Wartburgkreis"
+      "Wartburg County"
     ]
   },
   {
