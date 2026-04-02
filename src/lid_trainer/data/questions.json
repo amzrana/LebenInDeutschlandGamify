@@ -280,9 +280,9 @@
     "question_en": "In parliament, the term 'opposition' stands for …",
     "options_en": [
       "the governing parties.",
-      "all members of parliament who do not belong to the governing party/parties.",
       "the faction with the most members.",
-      "all parties that reached the 5% threshold in the last election."
+      "all parties that reached the 5% threshold in the last election.",
+      "all members of parliament who do not belong to the governing party/parties."
     ]
   },
   {
@@ -301,9 +301,9 @@
     "image": null,
     "question_en": "Freedom of expression in Germany means that I …",
     "options_en": [
-      "may spread false claims on flyers.",
-      "can express my opinion in letters to the editor.",
-      "may wear Nazi, Hamas, or Islamic State symbols publicly.",
+      "may insult passers-by on the street.",
+      "can express my opinion on the internet.",
+      "may publicly wear Nazi, Hamas, or Islamic State symbols.",
       "may only express my opinion as long as I don't contradict the government."
     ]
   },
@@ -499,10 +499,10 @@
     "image": null,
     "question_en": "In Germany, most employed people are …",
     "options_en": [
-      "employed by a company or government agency.",
       "employed in small family businesses.",
       "volunteering for a federal state.",
-      "self-employed with their own company."
+      "self-employed with their own company.",
+      "employed by a company or government agency."
     ]
   },
   {
@@ -543,8 +543,8 @@
     "image": null,
     "question_en": "What is NOT a federal state of the Federal Republic of Germany?",
     "options_en": [
-      "North Rhine-Westphalia",
       "Alsace-Lorraine",
+      "North Rhine-Westphalia",
       "Mecklenburg-Western Pomerania",
       "Saxony-Anhalt"
     ]
@@ -1556,9 +1556,9 @@
     "question_en": "Where does the German Chancellor spend most of their time?",
     "options_en": [
       "in Bonn, because the Chancellery and Bundestag are located there.",
-      "in Berlin, because the Chancellery and Bundestag are located there.",
       "at Schloss Meseberg, the guest house of the federal government, to receive state guests.",
-      "at Schloss Bellevue, the official residence of the Federal President, to receive state guests."
+      "at Schloss Bellevue, the official residence of the Federal President, to receive state guests.",
+      "in Berlin, because the Chancellery and Bundestag are located there."
     ]
   },
   {
@@ -2039,10 +2039,10 @@
     "image": null,
     "question_en": "The more 'second votes' a party gets in a federal election, the …",
     "options_en": [
-      "more seats the party receives in parliament.",
       "fewer first votes it can have.",
       "more direct candidates of the party enter parliament.",
-      "greater the risk of having to form a coalition."
+      "greater the risk of having to form a coalition.",
+      "more seats the party receives in parliament."
     ]
   },
   {
@@ -4525,10 +4525,10 @@
     "image": null,
     "question_en": "What did the term \"Montagsdemonstration\" mean in Germany in 1989?",
     "options_en": [
-      "In the Federal Republic, demonstrations were only allowed on Mondays.",
-      "On Mondays, there were demonstrations against the GDR regime.",
-      "On the first Monday of the month, demonstrators gathered in the Federal Republic of Germany.",
-      "On Mondays, demonstrations were held in the GDR against the West."
+      "famous German politicians",
+      "the victims of National Socialism",
+      "traffic fatalities",
+      "famous Jewish musicians"
     ]
   },
   {
@@ -5296,8 +5296,8 @@
     "question_en": "Mrs. Seger is having a baby. What must she do to receive parental allowance?",
     "options_en": [
       "She must write to her health insurance.",
-      "She doesn't need to do anything, she automatically receives parental allowance.",
       "She must submit an application to the parental allowance office.",
+      "She doesn't need to do anything, she automatically receives parental allowance.",
       "She must ask the employment office for permission."
     ]
   },
@@ -5339,8 +5339,8 @@
     "image": null,
     "question_en": "Maik and Sybille want to hold a demonstration on the street with friends. What must they do beforehand?",
     "options_en": [
-      "Nothing. You can demonstrate anywhere in Germany at any time.",
       "They must register the demonstration.",
+      "They don't need to do anything. You can demonstrate anywhere in Germany at any time.",
       "They can't do anything, demonstrations are generally prohibited in Germany.",
       "Maik and Sybille must found a new association, because only associations may demonstrate."
     ]
@@ -5846,9 +5846,9 @@
     "question_en": "When does the legal quiet time begin in Germany?",
     "options_en": [
       "when the sun goes down",
-      "at 10 PM",
       "when the neighbors go to sleep",
-      "at midnight"
+      "at midnight",
+      "at 10 PM"
     ]
   },
   {
@@ -5890,9 +5890,9 @@
     "question_en": "A young woman wants to get her driver's license. She is afraid of the exam because her native language is not German. What is correct?",
     "options_en": [
       "She must live in Germany for at least ten years before she can get a driver's license.",
-      "She may be able to take the theory exam in her native language. There are more than ten languages to choose from.",
       "If she doesn't speak German, she is not allowed to have a driver's license.",
-      "She must get her driver's license in the country where her language is spoken."
+      "She must get her driver's license in the country where her language is spoken.",
+      "She may be able to take the theory exam in her native language. There are more than ten languages to choose from."
     ]
   },
   {
@@ -6242,8 +6242,8 @@
     "question_en": "What is needed for work changes very quickly in the future. What can you do?",
     "options_en": [
       "It doesn't matter what you learn.",
-      "Children learn everything important for work in school. After school, you don't need to keep learning.",
       "Adults must continue learning even after their training.",
+      "Children learn everything important for work in school. After school, you don't need to keep learning.",
       "Everyone must stop working earlier because everything changes."
     ]
   },
