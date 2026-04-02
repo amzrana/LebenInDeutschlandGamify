@@ -1289,12 +1289,12 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "Which parties in Germany merged to form the party \"Die Linke\" in 2007?",
+    "question_en": "How many years ago was there first a Jewish community in the territory of present-day Germany?",
     "options_en": [
-      "CDU and SSW.",
-      "PDS and WASG.",
-      "CSU and FDP.",
-      "Alliance 90/The Greens and SPD."
+      "about 300 years ago",
+      "about 700 years ago",
+      "about 1,150 years ago",
+      "about 1,700 years ago"
     ]
   },
   {
@@ -1577,10 +1577,10 @@
     "image": null,
     "question_en": "What is the name of the current Chancellor of Germany?",
     "options_en": [
-      "Gerhard Schröder.",
-      "Angela Merkel.",
-      "Franziska Giffey.",
-      "Olaf Scholz."
+      "Gerhard Schröder",
+      "Angela Merkel",
+      "Ursula von der Leyen",
+      "Friedrich Merz"
     ]
   },
   {
@@ -1597,12 +1597,12 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "The two largest factions in the German Bundestag are currently called...",
+    "question_en": "The two largest factions in the German Bundestag are currently …",
     "options_en": [
-      "CDU/CSU and SPD.",
+      "CDU/CSU and AfD.",
       "The Left and Alliance 90/The Greens.",
-      "FDP and SPD.",
-      "The Left and FDP."
+      "Alliance 90/The Greens and SPD.",
+      "The Left and CDU/CSU."
     ]
   },
   {
@@ -3645,10 +3645,10 @@
     "image": null,
     "question_en": "At which demonstrations in Germany did people chant 'We are the people'?",
     "options_en": [
-      "at the Monday demonstrations in 1989 in the GDR",
       "at the workers' uprising in 1953 in the GDR",
       "at the demonstrations in 1968 in West Germany",
-      "at the anti-nuclear demonstrations in 1985 in West Germany"
+      "at the anti-nuclear demonstrations in 1985 in West Germany",
+      "at the Monday demonstrations in 1989 in the GDR"
     ]
   },
   {
@@ -4681,7 +4681,7 @@
     "options_en": [
       "70 million",
       "78 million",
-      "83 million",
+      "84 million",
       "90 million"
     ]
   },
