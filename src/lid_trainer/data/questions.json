@@ -1443,12 +1443,12 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "Who wrote the lyrics to the German national anthem?",
+    "question_en": "Which cities have the largest Jewish communities in Germany?",
     "options_en": [
-      "Friedrich von Schiller.",
-      "Clemens Brentano.",
-      "Johann Wolfgang von Goethe.",
-      "Heinrich Hoffmann von Fallersleben."
+      "Berlin and Munich",
+      "Hamburg and Essen",
+      "Nuremberg and Stuttgart",
+      "Worms and Speyer"
     ]
   },
   {
@@ -2325,10 +2325,10 @@
     "image": null,
     "question_en": "In Germany, voluntary election helpers assist during elections. What is a task of election helpers?",
     "options_en": [
-      "They assist children and elderly people with voting.",
-      "They write cards and letters specifying the polling station.",
-      "They provide interim results to journalists.",
-      "They count the votes after the end of the election."
+      "They help children and elderly people vote.",
+      "They write cards and letters with the polling station address.",
+      "They pass on interim results to journalists.",
+      "They count the votes after the election ends."
     ]
   },
   {
@@ -2433,12 +2433,12 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "In Germany, one is allowed to vote. What does that mean?",
+    "question_en": "Which actions related to the state of Israel are prohibited in Germany?",
     "options_en": [
-      "All German citizens are allowed to vote once they reach the minimum age.",
-      "Only married individuals are allowed to vote.",
-      "Only individuals with a stable job are allowed to vote.",
-      "All residents in Germany must vote."
+      "publicly criticizing Israel's policies",
+      "hanging an Israeli flag on private property",
+      "a discussion about Israel's policies",
+      "the public call for the destruction of Israel"
     ]
   },
   {
@@ -2587,12 +2587,12 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "What does the electoral law regulate in Germany?",
+    "question_en": "Who is allowed to be a member of the approximately 40 Jewish Maccabi sports clubs?",
     "options_en": [
-      "Those who are eligible to vote must vote.",
-      "Anyone who wants to can vote.",
-      "Those who do not vote lose the right to vote.",
-      "Those who are eligible to vote can vote."
+      "only Germans",
+      "only Israelis",
+      "only religious people",
+      "everyone"
     ]
   },
   {
@@ -3269,12 +3269,12 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "Who can become a lay judge in Germany?",
+    "question_en": "What is an example of antisemitic behavior?",
     "options_en": [
-      "all residents born in Germany over 18 years old",
-      "all German citizens older than 24 and younger than 70 years",
-      "all individuals who have lived in Germany for at least 5 years",
-      "only individuals with a completed law degree"
+      "attending a Jewish festival",
+      "criticizing the Israeli government",
+      "denying the Holocaust",
+      "playing football against Jews"
     ]
   },
   {
@@ -3577,7 +3577,7 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "In which year did the Nazis destroy synagogues and Jewish businesses in Germany?",
+    "question_en": "In which year did the National Socialists destroy synagogues and Jewish businesses in Germany?",
     "options_en": [
       "1925",
       "1930",
@@ -3995,12 +3995,12 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "Which parties were forcibly merged in 1946 to form the SED, the unified party of the later GDR?",
+    "question_en": "What is the Jewish house of prayer called?",
     "options_en": [
-      "KPD and SPD",
-      "SPD and CDU",
-      "CDU and FDP",
-      "KPD and CSU"
+      "Basilica",
+      "Mosque",
+      "Synagogue",
+      "Church"
     ]
   },
   {
@@ -4039,12 +4039,12 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "What did people in Germany call \"Die Stunde Null\" for a very long time?",
+    "question_en": "On what legal basis was the state of Israel founded?",
     "options_en": [
-      "This term refers to the time after the reunification in 1989.",
-      "This term referred to the beginning of the Second World War.",
-      "This term meant the end of the Second World War and the beginning of reconstruction.",
-      "This refers to the hour when the clock is set back from daylight saving time to standard time."
+      "a resolution of the United Nations",
+      "a decision of the Zionist Congress",
+      "a proposal by the German federal government",
+      "a proposal by the USSR"
     ]
   },
   {
@@ -6327,12 +6327,12 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "Which office do you usually have to register your dog with in Germany?",
+    "question_en": "What is the basis for Germany's special responsibility toward Israel?",
     "options_en": [
-      "at the tax office",
-      "at the registration office",
-      "at the municipality (city or town)",
-      "at the health department"
+      "membership in the European Union (EU)",
+      "the National Socialist crimes against Jews",
+      "the Basic Law of the Federal Republic of Germany",
+      "the Christian tradition"
     ]
   },
   {
