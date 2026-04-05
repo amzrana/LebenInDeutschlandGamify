@@ -236,6 +236,7 @@ let learnTotalOriginal = 0;
 let learnWrongThisRound = [];
 let learnResultsThisRound = [];
 let learnSubmitted = false;
+let learnCurrentMode = '';  // 'general', 'state', or 'mistakes'
 
 /* ── populate state dropdown ── */
 const sel = document.getElementById('stateSelect');
@@ -468,6 +469,7 @@ async function startLearn(mode) {
     alert('No questions available for this selection.');
     return;
   }
+  learnCurrentMode = mode;
   learnQueue = shuffle(data);
   learnIdx = 0; learnSelectedIdx = -1;
   learnRound = 1;
@@ -577,8 +579,10 @@ function learnSubmit() {
     question: q, chosen, correct_answer: correct });
   if (!isCorrect) {
     learnWrongThisRound.push(q);
+    // Any learn mode: wrong answer goes into mistake bank
     recordMistake(q);
-  } else {
+  } else if (learnCurrentMode === 'mistakes') {
+    // Only in Review Mistakes mode: correct answers count toward removal
     recordCorrectInBank(q);
   }
 
@@ -631,6 +635,7 @@ function finishLearn() {
 function showResults(extraInfo) {
   hideAll();
   document.getElementById('result').classList.remove('hidden');
+  updateMistakeCountUI();
 
   // Deduplicate: for learn mode a question can appear multiple times.
   // Show the LAST attempt for each question in the review.
