@@ -128,6 +128,12 @@ HTML_TEMPLATE = """
         onclick="startLearn('general')">📖 Learn All General</button>
       <button class="btn btn-warn"
         onclick="startLearn('state')">📖 Learn State</button>
+      <button class="btn btn-secondary" id="mistakesBtn"
+        onclick="startLearn('mistakes')">🔁 Review Mistakes
+        <span id="mistakeCount"></span></button>
+      <button class="btn btn-secondary"
+        onclick="clearMistakes()"
+        style="font-size:0.85em">🗑 Clear Mistake Bank</button>
     </div>
   </div>
 
@@ -261,7 +267,78 @@ function showSetup() {
   stopTimer();
   hideAll();
   document.getElementById('setup').classList.remove('hidden');
+  updateMistakeCountUI();
 }
+
+/* ════════════════════════════════════════════
+   MISTAKE BANK (localStorage)
+   Bank format: { "state:id": correctStreak }
+   correctStreak starts at 0 when added (wrong answer).
+   Each correct answer in learn mode increments it.
+   Removed when correctStreak reaches 3.
+   ════════════════════════════════════════════ */
+const BANK_KEY = 'lid_mistake_bank';
+
+function getMistakeBank() {
+  try {
+    return JSON.parse(localStorage.getItem(BANK_KEY)) || {};
+  } catch { return {}; }
+}
+
+function saveMistakeBank(bank) {
+  localStorage.setItem(BANK_KEY, JSON.stringify(bank));
+}
+
+function mistakeKey(q) {
+  return (q.state || '') + ':' + q.id;
+}
+
+function recordMistake(q) {
+  const bank = getMistakeBank();
+  const key = mistakeKey(q);
+  // Reset streak to 0 on any wrong answer
+  bank[key] = 0;
+  saveMistakeBank(bank);
+}
+
+function recordCorrectInBank(q) {
+  const bank = getMistakeBank();
+  const key = mistakeKey(q);
+  if (key in bank) {
+    bank[key] = (bank[key] || 0) + 1;
+    if (bank[key] >= 3) {
+      delete bank[key];
+    }
+    saveMistakeBank(bank);
+  }
+}
+
+function getMistakeKeys() {
+  return Object.keys(getMistakeBank());
+}
+
+function clearMistakes() {
+  if (confirm('Clear all saved mistakes? This cannot be undone.')) {
+    localStorage.removeItem(BANK_KEY);
+    updateMistakeCountUI();
+  }
+}
+
+function updateMistakeCountUI() {
+  const keys = getMistakeKeys();
+  const el = document.getElementById('mistakeCount');
+  const btn = document.getElementById('mistakesBtn');
+  if (keys.length > 0) {
+    el.textContent = '(' + keys.length + ')';
+    btn.disabled = false;
+  } else {
+    el.textContent = '(0)';
+    btn.disabled = true;
+  }
+}
+
+// Update count on page load
+updateMistakeCountUI();
 
 /* ════════════════════════════════════════════
    TIMED QUIZ (Exam / Quick 10)
@@ -371,10 +448,26 @@ function finishTimedQuiz() {
    ════════════════════════════════════════════ */
 async function startLearn(mode) {
   const state = document.getElementById('stateSelect').value;
-  const resp = await fetch(
-    '/api/questions?mode=' + mode +
-    '&state=' + encodeURIComponent(state));
-  const data = await resp.json();
+  let data;
+  if (mode === 'mistakes') {
+    const keys = getMistakeKeys();
+    if (keys.length === 0) {
+      alert('No mistakes saved yet. Practice some questions first!');
+      return;
+    }
+    const resp = await fetch('/api/questions?mode=mistakes&keys=' +
+      encodeURIComponent(JSON.stringify(keys)));
+    data = await resp.json();
+  } else {
+    const resp = await fetch(
+      '/api/questions?mode=' + mode +
+      '&state=' + encodeURIComponent(state));
+    data = await resp.json();
+  }
+  if (!data.length) {
+    alert('No questions available for this selection.');
+    return;
+  }
   learnQueue = shuffle(data);
   learnIdx = 0; learnSelectedIdx = -1;
   learnRound = 1;
@@ -482,7 +575,12 @@ function learnSubmit() {
     question: q, chosen, correct_answer: correct });
   allResults.push({
     question: q, chosen, correct_answer: correct });
-  if (!isCorrect) learnWrongThisRound.push(q);
+  if (!isCorrect) {
+    learnWrongThisRound.push(q);
+    recordMistake(q);
+  } else {
+    recordCorrectInBank(q);
+  }
 
   // Swap buttons
   document.getElementById('learnSubmitBtn').classList.add('hidden');
@@ -659,6 +757,14 @@ def create_app(bank: QuestionBank, default_state: str = "Berlin") -> Flask:
             all_qs = bank.general_questions()
             all_qs += bank.state_questions(state)
             qs = random.sample(all_qs, min(10, len(all_qs)))
+        elif mode == "mistakes":
+            keys_raw = request.args.get("keys", "[]")
+            try:
+                keys = json.loads(keys_raw)
+            except (json.JSONDecodeError, TypeError):
+                keys = []
+            key_set = set(keys)
+            qs = [q for q in bank.all_questions if ((q.state or "") + ":" + str(q.id)) in key_set]
         else:
             qs = []
 
