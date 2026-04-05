@@ -4027,7 +4027,7 @@
   },
   {
     "id": 184,
-    "question": "184. Auf welcher rechtlichen Grundlage wurde der Staat Israel gegründet?",
+    "question": "Auf welcher rechtlichen Grundlage wurde der Staat Israel gegründet?",
     "options": [
       "eine Resolution der Vereinten Nationen",
       "ein Beschluss des Zionistenkongresses",
@@ -4511,7 +4511,7 @@
   },
   {
     "id": 206,
-    "question": "206. Woran erinnern die sogenannten „Stolpersteine“ in Deutschland?",
+    "question": "Woran erinnern die sogenannten „Stolpersteine“ in Deutschland?",
     "options": [
       "an berühmte deutsche Politikerinnen und Politiker",
       "an die Opfer des Nationalsozialismus",
@@ -4523,7 +4523,7 @@
     "state": null,
     "has_image": false,
     "image": null,
-    "question_en": "What did the term \"Montagsdemonstration\" mean in Germany in 1989?",
+    "question_en": "What do the so-called \"Stolpersteine\" (stumbling stones) in Germany commemorate?",
     "options_en": [
       "famous German politicians",
       "the victims of National Socialism",
